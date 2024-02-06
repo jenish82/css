@@ -1,0 +1,15 @@
+p {
+    color: blue !important;
+}
+
+.paragraf {
+    color: brown;
+}
+
+.anyk p {
+    color: blue;
+}
+
+.anyk .paragraf {
+    color: black;
+}
