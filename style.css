@@ -1,15 +1,19 @@
-p {
-    color: blue !important;
+/* tustordun attary -140 at bar */
+.usul1{
+    background-color:blue;
+    color: white;
 }
-
-.paragraf {
-    color: brown;
+/* HEX tustoru */
+.usul2{
+    background-color:#0b9e03;
+    color:#fcf8f8;
 }
-
-.anyk p {
-    color: blue;
+/* RGB (red, green, blue) 0-255 ke chein san menen tustor berilet */
+.usul3{
+    background-color:rgb(0,0,255) ;
+    color: rgb(255, 255, 255);
 }
-
-.anyk .paragraf {
-    color: black;
+/* RGBA.  rgba(red,green,blue,alpha) (alpha 0.0-1.0 ushul aralykta bolot) */
+.usul4{
+    background-color:rgba(0,0,255,0.3) ;
 }
