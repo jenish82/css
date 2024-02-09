@@ -1,9 +1,8 @@
-.font{
-    /* font-family: Arial;
-    font-size: 40px;
-    font-style: italic;
-    font-weight: bold; */
-    
-    font: bold italic 40px Arial;
+@font-face{
+    src: url("fonts/RubikGlitchPop-Regular.ttf")
+    font-family: 'Rubik Glitch Pop', system-ui;
 }
-
+p {
+    font-family: 'Rubik Glitch Pop', system-ui;
+    color: brown;
+}
