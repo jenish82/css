@@ -3,10 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-.one{
-    background-color: blue;
-    color:white;
-    width: 300px;
-    max-height: 100px;
-    overflow: auto;
+.background-image{
+    background-image: url("https://picsum.photos/1000");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px; 
 }
