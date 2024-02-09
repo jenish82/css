@@ -1,8 +1,7 @@
-@font-face{
-    src: url("fonts/RubikGlitchPop-Regular.ttf")
-    font-family: 'Rubik Glitch Pop', system-ui;
-}
-p {
-    font-family: 'Rubik Glitch Pop', system-ui;
-    color: brown;
+.container {
+    background-color:blue;
+    width:300px;
+    height: 200px;
+    border: 7px solid black;
+    border-radius: 25px;
 }
