@@ -1,6 +1,7 @@
-img {
-    width: 500px;
-    height: 400px;
-    opacity: 0.9;
-    object-fit: cover;
+ul{
+    font-size: 30px;
+    color:blue
+}
+ul .two{
+    color:red
 }
