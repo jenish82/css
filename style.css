@@ -1,7 +1,5 @@
+/* ul degi belgini alyp koet */
 ul{
-    font-size: 30px;
-    color:blue
-}
-ul .two{
-    color:red
+    list-style: none;
+    text-align: center;
 }
