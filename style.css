@@ -1,5 +1,23 @@
-/* ul degi belgini alyp koet */
-ul{
-    list-style: none;
-    text-align: center;
+/* box-sizing: border-box; bergenibizde
+margin padding baryn ichine batyrypberet */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.one{
+    background-color: blue;
+    color: white;
+    border: 5px solid black;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 30px;
+}
+.two{
+    background-color:red;
+    color: white;
+    border: 5px solid black;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
 }
