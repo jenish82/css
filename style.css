@@ -1,53 +1,16 @@
-a:link{
-    color: green;
-    text-decoration: none;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-a:visited{
-    color: blue;
-    text-decoration: none;
-}
-a:hover{
-    color: red;
-    text-decoration: none;
-}
-a:active{
-    color: yellow;
-    text-decoration: none;
-}
-button{
-    background-color: blue;
+a {
+    display:block;
+    background-color: #707070;
     color:white;
-    padding: 10px;
-    border: none;
-}
-button:hover{
-    background-color: yellow;
-    color:white;
-    padding: 10px;
-    border: none;
-    
-}
-li:first-child{
-    color: red;
-}
-li:last-child{
-    color: blue;
-}
-li:nth-child(5){
-    color: rgb(2, 146, 0);
-}
-
-p::first-line{
-    color: aqua;
-}
-
-p::first-letter{
-    color: rgb(74, 1, 152);
-    font-size:30px;
-}
-p::before{
-    content: url(https://picsum.photos/10);
-}
-p::after{
-    content: url(https://picsum.photos/10);
+    text-decoration: none;
+    font-size: 30px;
+    height: 100px;
+    width: 100px;
+    margin:10px auto;
+    padding: 20px 20px;
 }
